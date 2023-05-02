@@ -15,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: '/audrey',
     element: <h1>Audrey</h1>
+  },
+  {
+    path: '/joey',
+    element: <h1>Joey</h1>
   }
 ])
 
