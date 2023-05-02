@@ -6,16 +6,14 @@ import {
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Root />,
-    loader: rootLoader,
-    
+    element: <h1>Hi</h1>
   },
 ])
 
 function App() {
   return (
     <>
-      <div className="App"></div>
+      <div className="App"><RouterProvider router={router}/></div>
     </>
   )
 }
