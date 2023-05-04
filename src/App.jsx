@@ -15,12 +15,6 @@ const router = createBrowserRouter([
     loader: dashboardLoader,
     errorElement: <Error/>
   },
-  {
-    path: "*",
-    element: <Error/>
-  }
-
-
 ])
 
 function App() {
