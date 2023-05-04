@@ -1,3 +1,6 @@
+// react router dom imports
+import { useLoaderData } from 'react-router-dom';
+
 // helper functions
 import { fetchData } from '../helpers'
 
@@ -8,6 +11,7 @@ export function dashboardLoader() {
 }
 
 const Dashboard = () => {
+  useLoaderData
   return (
     <div>Dashboard</div>
   )
