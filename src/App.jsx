@@ -3,10 +3,14 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
+
+// Routes
+import Dashboard from './pages/Dashboard';
+
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h1>Hi</h1>
+    element: <Dashboard/>
   },
   {
     path: '/about',
