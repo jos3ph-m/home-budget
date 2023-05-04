@@ -5,12 +5,13 @@ import {
 
 
 // Routes
-import Dashboard from './pages/Dashboard';
+import Dashboard, { dashboardLoader } from './pages/Dashboard';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Dashboard/>
+    element: <Dashboard/>,
+    loader: dashboardLoader
   },
   {
     path: '/about',
