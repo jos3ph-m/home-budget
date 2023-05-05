@@ -1,5 +1,5 @@
 // react router dom imports
-import { useLoaderData } from 'react-router-dom';
+import { Outlet, useLoaderData } from 'react-router-dom';
 
 // helper functions
 import { fetchData } from '../helpers'
@@ -14,7 +14,7 @@ const Main = () => {
   const {userName} = useLoaderData()
 
   return (
-    <div><h1>The username is {userName}</h1>Main</div>
+    <div><h1>The username is {userName}</h1><Outlet /></div>
   )
 }
 
