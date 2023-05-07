@@ -14,7 +14,7 @@ const Main = () => {
   const {userName} = useLoaderData()
 
   return (
-    <div><h1>The username is {userName}</h1><Outlet /></div>
+    <div><h2>{userName}</h2><Outlet /></div>
   )
 }
 
