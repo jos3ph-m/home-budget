@@ -1,6 +1,9 @@
 // react router dom imports
 import { Outlet, useLoaderData } from 'react-router-dom';
 
+// assets
+import wave from '../assets/wave.svg'
+
 // helper functions
 import { fetchData } from '../helpers'
 
@@ -19,7 +22,7 @@ const Main = () => {
       <main>
       <Outlet />
       </main>
-      
+      <img src={wave} alt="" />
     </div>
   )
 }
