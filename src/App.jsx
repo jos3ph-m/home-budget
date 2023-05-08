@@ -3,11 +3,12 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
+// layouts
+import Main, {mainLoader} from './layouts/main';
 
 // Routes
 import Dashboard, { dashboardLoader } from './pages/Dashboard';
 import Error from './pages/error';
-import Main from './layouts/main';
 
 const router = createBrowserRouter([
   {
