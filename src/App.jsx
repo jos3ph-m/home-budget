@@ -25,12 +25,6 @@ const router = createBrowserRouter([
       }
     ]
   },
-  {
-    path: '/',
-    element: <Dashboard/>,
-    loader: dashboardLoader,
-    errorElement: <Error/>
-  },
 ])
 
 function App() {
