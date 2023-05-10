@@ -1,7 +1,7 @@
-const Nav = () => {
+const Nav = ({ userName }) => {
   return (
     <nav>
-      Nav
+      {userName}
     </nav>
   )
 }
