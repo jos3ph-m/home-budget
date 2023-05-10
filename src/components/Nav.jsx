@@ -1,10 +1,14 @@
+// rrd imports
+import { NavLink } from 'react-router-dom'
+
 // assets
 import logomark from '../assets/logomark.svg'
 
 const Nav = ({ userName }) => {
   return (
     <nav>
-      <img src={logomark} alt="" height={30}/>
+      <NavLink><img src={logomark} alt="" height={30}/></NavLink>
+      
     </nav>
   )
 }
