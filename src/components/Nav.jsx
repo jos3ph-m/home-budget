@@ -8,7 +8,7 @@ const Nav = ({ userName }) => {
   return (
     <nav>
       <NavLink><img src={logomark} alt="" height={30}/>
-      <span></span>
+      <span>HomeBudget</span>
       </NavLink>
       
     </nav>
