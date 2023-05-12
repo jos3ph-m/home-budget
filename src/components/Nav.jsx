@@ -7,7 +7,7 @@ import logomark from '../assets/logomark.svg'
 const Nav = ({ userName }) => {
   return (
     <nav>
-      <NavLink to="/"><img src={logomark} alt="" height={30}/>
+      <NavLink to="/" aria-label="Go to home"><img src={logomark} alt="" height={30}/>
       <span>HomeBudget</span>
       </NavLink>
       
