@@ -14,7 +14,7 @@ export const Nav = ({ userName }) => {
         userName && (
           <Form method="post" action="/logout">
             <button type="submit" className="btn btn--warning">
-              <span></span>
+              <span>Delete User</span>
 
             </button>
           </Form>
