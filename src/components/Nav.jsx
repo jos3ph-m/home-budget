@@ -12,7 +12,7 @@ export const Nav = ({ userName }) => {
       </NavLink>
       {
         userName && (
-          <Form method="post">
+          <Form method="post" action="/logout">
 
           </Form>
         )
