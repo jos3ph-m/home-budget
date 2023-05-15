@@ -1,5 +1,5 @@
 // rrd imports
-import { NavLink } from 'react-router-dom'
+import { Form, NavLink } from 'react-router-dom'
 
 // assets
 import logomark from '../assets/logomark.svg'
@@ -11,7 +11,9 @@ export const Nav = ({ userName }) => {
       <span>HomeBudget</span>
       </NavLink>
       {
-        userName && ()
+        userName && (
+          <Form></Form>
+        )
       }
       
     </nav>
