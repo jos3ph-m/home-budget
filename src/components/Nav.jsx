@@ -2,6 +2,7 @@
 import { Form, NavLink } from 'react-router-dom'
 
 // library imports
+import { BreakerIcon } from '@heroicons/react/24/solid'
 
 // assets
 import logomark from '../assets/logomark.svg'
