@@ -8,7 +8,7 @@ export const Nav = ({ userName }) => {
   return (
     <nav>
       <NavLink to="/" aria-label="Go to home"><img src={logomark} alt="" height={30}/>
-      <span>HomeBudget</span>
+      <span>Home Budget</span>
       </NavLink>
       {
         userName && (
