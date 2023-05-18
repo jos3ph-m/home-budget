@@ -6,6 +6,9 @@ import {
 // layouts
 import Main, {mainLoader} from './layouts/main';
 
+// Actions
+import { logoutAction } from './actions/logout';
+
 // Routes
 import Dashboard, { dashboardLoader } from './pages/Dashboard';
 import Error from './pages/error';
