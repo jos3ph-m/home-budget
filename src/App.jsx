@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "logout",
-        element: <p>logged out!</p>
+        action: logoutAction
       }
     ]
   },
