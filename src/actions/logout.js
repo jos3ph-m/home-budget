@@ -4,7 +4,9 @@ import { deleteItem } from '../helpers';
 
 export async function logoutAction() {
   // delete the user
-  deleteItem;
+  deleteItem({
+    key: 'userName',
+  });
 
   // return redirect
   return redirect('/');
