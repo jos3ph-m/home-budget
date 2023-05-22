@@ -5,6 +5,7 @@ import {
 
 // Library
 import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 // layouts
 import Main, {mainLoader} from './layouts/main';
