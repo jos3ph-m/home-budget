@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 
 // helper functions
 import { fetchData } from '../helpers'
+import Intro from '../components/Intro';
 
 // loader
 export function dashboardLoader() {
