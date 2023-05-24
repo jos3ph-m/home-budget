@@ -1,6 +1,8 @@
 function Intro() {
   return (
-    <div className="intro">Intro</div>
+    <div className="intro">
+      <div></div>
+    </div>
   )
 }
 
