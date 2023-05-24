@@ -1,7 +1,9 @@
 function Intro() {
   return (
     <div className="intro">
-      <div></div>
+      <div>
+        <h1></h1>
+      </div>
     </div>
   )
 }
