@@ -3,7 +3,7 @@ function Intro() {
     <div className="intro">
       <div>
         <h1>
-          Take Control
+          Take Control of <span className="accent"></span>
         </h1>
       </div>
     </div>
