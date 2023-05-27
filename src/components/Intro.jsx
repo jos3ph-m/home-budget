@@ -1,3 +1,5 @@
+import {Form} from 'react-router-dom'
+
 function Intro() {
   return (
     <div className="intro">
@@ -8,6 +10,7 @@ function Intro() {
         <p>
           Personal budgeting is the gateway to financial freedom.  Start your journey today.
         </p>
+        <Form method="post"></Form>
       </div>
     </div>
   )
