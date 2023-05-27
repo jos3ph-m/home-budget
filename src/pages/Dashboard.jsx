@@ -17,7 +17,7 @@ const Dashboard = () => {
   const {userName} = useLoaderData()
 
   return (
-    <div>{userName ? (<p>{userName}</p>) : <Intro />}Dashboard</div>
+    <>{userName ? (<p>{userName}</p>) : <Intro />}Dashboard</>
   )
 }
 
