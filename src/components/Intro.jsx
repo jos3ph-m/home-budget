@@ -19,6 +19,9 @@ function Intro() {
             aria-label="Your Name" 
             autoComplete='given-name'
           />
+          <button type="submit" className="btn btn--dark">
+            <span>Create Account</span>
+          </button>
         </Form>
       </div>
     </div>
