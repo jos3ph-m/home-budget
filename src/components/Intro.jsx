@@ -10,7 +10,9 @@ function Intro() {
         <p>
           Personal budgeting is the gateway to financial freedom.  Start your journey today.
         </p>
-        <Form method="post"></Form>
+        <Form method="post">
+          <input type="text" name="userName" />
+        </Form>
       </div>
     </div>
   )
