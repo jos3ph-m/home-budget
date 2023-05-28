@@ -8,7 +8,7 @@ function Intro() {
           Take Control of <span className="accent">Your Money</span>
         </h1>
         <p>
-          Personal budgeting is the gateway to financial freedom.  Start your journey today.
+          Budgeting is the gateway to financial freedom.  Start your journey today.
         </p>
         <Form method="post">
           <input 
