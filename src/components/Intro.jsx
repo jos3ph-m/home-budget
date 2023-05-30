@@ -24,7 +24,7 @@ function Intro() {
           />
           <button type="submit" className="btn btn--dark">
             <span>Create Account</span>
-            <UserPlusIcon />
+            <UserPlusIcon width={20}/>
           </button>
         </Form>
       </div>
