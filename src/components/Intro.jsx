@@ -28,6 +28,7 @@ function Intro() {
           </button>
         </Form>
       </div>
+      <img src={illustration} alt="Person with money" width={600} />
     </div>
   )
 }
