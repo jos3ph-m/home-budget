@@ -14,6 +14,7 @@ export function dashboardLoader() {
 }
 
 // action
+export async function dashboardAction() {}
 
 const Dashboard = () => {
   const {userName} = useLoaderData()
