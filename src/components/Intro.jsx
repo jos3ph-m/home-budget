@@ -21,7 +21,7 @@ function Intro() {
             type="text" 
             name="userName" 
             required 
-            placeholder='Please list your name' 
+            placeholder='What is your name?' 
             aria-label="Your Name" 
             autoComplete='given-name'
           />
