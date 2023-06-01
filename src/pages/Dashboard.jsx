@@ -16,7 +16,7 @@ export function dashboardLoader() {
 // action
 export async function dashboardAction({request}) {
   const data = await request.formData();
-  console.log(data)
+  console.log({data, request})
 }
 
 const Dashboard = () => {
