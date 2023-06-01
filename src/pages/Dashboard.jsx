@@ -13,6 +13,8 @@ export function dashboardLoader() {
   return { userName }
 }
 
+// action
+
 const Dashboard = () => {
   const {userName} = useLoaderData()
 
