@@ -14,7 +14,7 @@ function Intro() {
           Take Control of <span className="accent">Your Money</span>
         </h1>
         <p>
-          Personal budgeting is the beginning of financial freedom.  Start your journey today.
+          Personal budgeting is the start of financial freedom.  Start your journey today.
         </p>
         <Form method="post">
           <input 
