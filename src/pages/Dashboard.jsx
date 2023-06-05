@@ -17,6 +17,7 @@ export function dashboardLoader() {
 export async function dashboardAction({request}) {
   const data = await request.formData();
   const userName = data.get("userName")
+  console.log("userName is", userName)
 }
 
 const Dashboard = () => {
