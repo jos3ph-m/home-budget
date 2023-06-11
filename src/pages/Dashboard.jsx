@@ -16,8 +16,8 @@ export function dashboardLoader() {
 // action
 export async function dashboardAction({request}) {
   const data = await request.formData();
-  const userName = data.get("userName")
-  console.log("userName is", userName)
+  const formData = Object.fromEntries(data);
+  console.log("dashboardAction ~ formData", formData)
 }
 
 const Dashboard = () => {
