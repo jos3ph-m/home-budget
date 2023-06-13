@@ -4,7 +4,10 @@ const Error = () => {
   const error = useRouteError();
   
   return (
-    <div className="error">error</div>
+    <div className="error">
+      <h1>Uh oh!  It looks like there is an issue.</h1>
+      
+    </div>
   )
 }
 
