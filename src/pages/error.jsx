@@ -11,8 +11,13 @@ const Error = () => {
       <h1>Uh oh!  It looks like there is an issue.</h1>
       <p>{error.message || error.statusText}</p>
       <div className="flex-md">
-        <button></button>
-        <Link>
+        <button>
+          <span>Go Back</span>
+        </button>
+        <Link
+          to="/"
+          className="btn btn--dark"
+        >
           <HomeIcon width={20}/>
           <span>Go home</span>
         </Link>
