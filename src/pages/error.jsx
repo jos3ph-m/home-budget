@@ -1,5 +1,8 @@
 import { useRouteError, Link } from 'react-router-dom'
 
+// library imports
+import { HomeIcon } from '@heroicons/react/24/solid';
+
 const Error = () => {
   const error = useRouteError();
   
@@ -10,6 +13,7 @@ const Error = () => {
       <div className="flex-md">
         <button></button>
         <Link>
+          <HomeIcon width={20}/>
           <span>Go home</span>
         </Link>
       </div>
