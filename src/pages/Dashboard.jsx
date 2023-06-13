@@ -1,6 +1,9 @@
 // react router dom imports
 import { useLoaderData } from 'react-router-dom';
 
+// library imports
+import {toast} from 'react-toastify'
+
 // helper functions
 import { fetchData } from '../helpers'
 
@@ -21,7 +24,7 @@ export async function dashboardAction({request}) {
     localStorage.setItem("userName", JSON.stringify(formData.userName))
     return toast.success(`Welcome, ${formData.userName}`)
   } catch (e) {
-    
+    throw new Error("There was a problem creating your account")
   }
   
 }
