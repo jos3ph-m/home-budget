@@ -9,7 +9,9 @@ const Error = () => {
       <p>{error.message || error.statusText}</p>
       <div className="flex-md">
         <button></button>
-        <Link></Link>
+        <Link>
+          <span>Go home</span>
+        </Link>
       </div>
     </div>
   )
