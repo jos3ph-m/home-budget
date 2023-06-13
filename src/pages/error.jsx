@@ -1,7 +1,7 @@
 import { useRouteError, Link } from 'react-router-dom'
 
 // library imports
-import { HomeIcon } from '@heroicons/react/24/solid';
+import { HomeIcon, ArrowUturnLeftIcon } from '@heroicons/react/24/solid';
 
 const Error = () => {
   const error = useRouteError();
@@ -11,7 +11,8 @@ const Error = () => {
       <h1>Uh oh!  It looks like there is an issue.</h1>
       <p>{error.message || error.statusText}</p>
       <div className="flex-md">
-        <button>
+        <button className="btn btn--dark">
+          <ArrowUturnLeftIcon width={20}/>
           <span>Go Back</span>
         </button>
         <Link
