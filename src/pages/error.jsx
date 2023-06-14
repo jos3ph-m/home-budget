@@ -1,10 +1,11 @@
-import { useRouteError, Link } from 'react-router-dom'
+import { useRouteError, Link, useNavigate } from 'react-router-dom'
 
 // library imports
 import { HomeIcon, ArrowUturnLeftIcon } from '@heroicons/react/24/solid';
 
 const Error = () => {
   const error = useRouteError();
+  useNavigate() 
   
   return (
     <div className="error">
