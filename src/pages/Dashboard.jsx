@@ -33,7 +33,7 @@ const Dashboard = () => {
   const {userName} = useLoaderData()
 
   return (
-    <>{userName ? (<p>{userName}</p>) : <Intro />}Dashboard</>
+    <>{userName ? () : <Intro />}Dashboard</>
   )
 }
 
