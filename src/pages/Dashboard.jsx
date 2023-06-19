@@ -34,7 +34,7 @@ const Dashboard = () => {
   const {userName, budgets} = useLoaderData()
 
   return (
-    <>{userName ? (<div className="dashboard"><h1>Hello again, <span className="accent">{userName}</span></h1><div className="grid-sm"></div></div>) : <Intro />}Dashboard</>
+    <>{userName ? (<div className="dashboard"><h1>Hello again, <span className="accent">{userName}</span></h1><div className="grid-sm">{/*budgets ? ():()*/}</div></div>) : <Intro />}Dashboard</>
   )
 }
 
