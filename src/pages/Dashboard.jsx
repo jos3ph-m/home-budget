@@ -14,7 +14,7 @@ import Intro from '../components/Intro';
 export function dashboardLoader() {
   const userName = fetchData("userName");
   const budgets = fetchData("budgets");
-  return { userName }
+  return { userName, budgets }
 }
 
 // action
