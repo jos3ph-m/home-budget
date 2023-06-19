@@ -13,6 +13,7 @@ import Intro from '../components/Intro';
 // loader
 export function dashboardLoader() {
   const userName = fetchData("userName");
+  const budgets = fetchData("budgets");
   return { userName }
 }
 
