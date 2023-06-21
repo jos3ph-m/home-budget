@@ -9,6 +9,7 @@ import { fetchData } from '../helpers'
 
 // components
 import Intro from '../components/Intro';
+import AddBudgetForm from '../components/AddBudgetForm';
 
 // loader
 export function dashboardLoader() {
