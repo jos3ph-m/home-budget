@@ -1,6 +1,6 @@
 const AddBudgetForm = () => {
   return (
-    <div>AddBudgetForm</div>
+    <div></div>
   )
 }
 
