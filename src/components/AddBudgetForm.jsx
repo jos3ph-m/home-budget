@@ -6,7 +6,7 @@ const AddBudgetForm = () => {
       <h2 className="h3">
         Create budget
       </h2>
-      <Form></Form>
+      <Form method="post" className='grid-sm'></Form>
     </div>
   )
 }
