@@ -2,7 +2,7 @@ const AddBudgetForm = () => {
   return (
     <div className="form-wrapper">
       <h2 className="h3">
-        Create
+        Create budget
       </h2>
     </div>
   )
