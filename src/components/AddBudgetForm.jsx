@@ -9,7 +9,7 @@ const AddBudgetForm = () => {
       <Form method="post" className='grid-sm'>
         <div className="grid-xs">
           <label htmlFor="newBudget">Budget Name</label>
-          <input type="text" />
+          <input type="text" name="newBudget" id="newBudget"/>
         </div>
       </Form>
     </div>
