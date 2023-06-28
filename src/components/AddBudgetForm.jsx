@@ -11,6 +11,7 @@ const AddBudgetForm = () => {
           <label htmlFor="newBudget">Budget Name</label>
           <input type="text" name="newBudget" id="newBudget" placeholder='e.g., Groceries' required/>
         </div>
+        <label htmlFor="newBudgetAmount">Amount</label>
       </Form>
     </div>
   )
