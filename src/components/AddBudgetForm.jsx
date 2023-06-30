@@ -12,7 +12,7 @@ const AddBudgetForm = () => {
           <input type="text" name="newBudget" id="newBudget" placeholder='e.g., Groceries' required/>
         </div>
         <label htmlFor="newBudgetAmount">Amount</label>
-        <input type="number" step="0.01" name="newBudgetAmount"/>
+        <input type="number" step="0.01" name="newBudgetAmount" id="newBudgetAmount" placeholder="e.g., $350" required inputMode='decimal'/>
       </Form>
     </div>
   )
