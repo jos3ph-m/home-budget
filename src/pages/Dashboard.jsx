@@ -31,6 +31,14 @@ export async function dashboardAction({request}) {
     } catch (e) {
       throw new Error("There was a problem creating your account")
     }
+
+  if (_action === "createBudget") {
+    try {
+      
+    } catch (e) {
+      
+    }
+  }
   }
 
   

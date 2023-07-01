@@ -1,7 +1,7 @@
 import { Form } from "react-router-dom"
 
 // library imports
-import {CurrencyDollarIcon} from "@heroicons/react"
+import {CurrencyDollarIcon} from "@heroicons/react/24/solid"
 
 const AddBudgetForm = () => {
   return (
