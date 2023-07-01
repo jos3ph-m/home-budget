@@ -22,7 +22,7 @@ export function dashboardLoader() {
 export async function dashboardAction({request}) {
   const data = await request.formData();
   const {_action, ...values} = Object.fromEntries(data);
-  console.log(_action, ...values)
+  
   // try {
   //   localStorage.setItem("userName", JSON.stringify(formData.userName))
   //   return toast.success(`Welcome, ${formData.userName}`)
