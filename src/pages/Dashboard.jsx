@@ -31,6 +31,7 @@ export async function dashboardAction({request}) {
     } catch (e) {
       throw new Error("There was a problem creating your account")
     }
+  }
 
   if (_action === "createBudget") {
     try {
@@ -38,10 +39,10 @@ export async function dashboardAction({request}) {
 
       return toast.success("Budget created")
     } catch (e) {
-      
+      throw new Error("There was a problem creating your budget")
     }
   }
-  }
+  
 
   
   
