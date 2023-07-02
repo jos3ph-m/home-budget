@@ -34,7 +34,7 @@ export async function dashboardAction({request}) {
 
   if (_action === "createBudget") {
     try {
-      
+      // create budget
     } catch (e) {
       
     }
