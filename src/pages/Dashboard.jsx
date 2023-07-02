@@ -35,6 +35,8 @@ export async function dashboardAction({request}) {
   if (_action === "createBudget") {
     try {
       // create budget
+
+      return toast.success("Budget created")
     } catch (e) {
       
     }
