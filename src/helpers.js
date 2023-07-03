@@ -13,6 +13,7 @@ export const createBudget = ({ name, amount }) => {
     amount: +amount,
     // color:
   };
+  const existingBudgets = fetchData('budgets');
 };
 
 // delete item
