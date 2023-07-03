@@ -5,6 +5,13 @@ export const fetchData = (key) => {
 };
 
 // create budget
+export const createBudget = ({ name, amount }) => {
+  const newItem = {
+    id: crypto.randomUUID(),
+    name: name,
+    createAt: Date.now(),
+  };
+};
 
 // delete item
 export const deleteItem = ({ key }) => {
