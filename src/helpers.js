@@ -13,7 +13,11 @@ export const createBudget = ({ name, amount }) => {
     amount: +amount,
     // color:
   };
-  const existingBudgets = fetchData('budgets');
+  const existingBudgets = fetchData('budgets') ?? [];
+  return localStorage.setItem(
+    'budgets',
+    JSON.stringify([...existingBudgets, newItem])
+  );
 };
 
 // delete item
