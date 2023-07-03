@@ -11,7 +11,7 @@ export const createBudget = ({ name, amount }) => {
     name: name,
     createdAt: Date.now(),
     amount: +amount,
-    // color:
+    color: generateRandomColor(),
   };
   const existingBudgets = fetchData('budgets') ?? [];
   return localStorage.setItem(
