@@ -9,7 +9,7 @@ export const createBudget = ({ name, amount }) => {
   const newItem = {
     id: crypto.randomUUID(),
     name: name,
-    createAt: Date.now(),
+    createdAt: Date.now(),
     amount: +amount,
     // color:
   };
