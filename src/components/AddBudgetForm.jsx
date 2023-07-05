@@ -4,7 +4,7 @@ import { Form, useFetcher } from "react-router-dom"
 import {CurrencyDollarIcon} from "@heroicons/react/24/solid"
 
 const AddBudgetForm = () => {
-  useFetcher
+  const fetcher = useFetcher()
   return (
     <div className="form-wrapper">
       <h2 className="h3">
