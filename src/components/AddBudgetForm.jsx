@@ -1,3 +1,5 @@
+
+// rrd imports
 import { Form, useFetcher } from "react-router-dom"
 
 // library imports
@@ -6,7 +8,9 @@ import {CurrencyDollarIcon} from "@heroicons/react/24/solid"
 const AddBudgetForm = () => {
   const fetcher = useFetcher()
   const isSubmitting = fetcher.state === "submitting";
-  
+
+  const formRef = useRef() 
+
   return (
     <div className="form-wrapper">
       <h2 className="h3">
