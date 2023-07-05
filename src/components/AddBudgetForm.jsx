@@ -5,6 +5,8 @@ import {CurrencyDollarIcon} from "@heroicons/react/24/solid"
 
 const AddBudgetForm = () => {
   const fetcher = useFetcher()
+  const isSubmitting = fetcher.state === "submitting";
+  
   return (
     <div className="form-wrapper">
       <h2 className="h3">
