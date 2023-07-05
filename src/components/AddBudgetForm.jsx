@@ -11,7 +11,7 @@ const AddBudgetForm = () => {
       </h2>
       <Form method="post" className='grid-sm'>
         <div className="grid-xs">
-          <label htmlFor="newBudget">Budget</label>
+          <label htmlFor="newBudget">Budget Name</label>
           <input type="text" name="newBudget" id="newBudget" placeholder='e.g., Groceries' required/>
         </div>
         <div className="grid-xs">
