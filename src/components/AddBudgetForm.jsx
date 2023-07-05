@@ -1,9 +1,10 @@
-import { Form } from "react-router-dom"
+import { Form, useFetcher } from "react-router-dom"
 
 // library imports
 import {CurrencyDollarIcon} from "@heroicons/react/24/solid"
 
 const AddBudgetForm = () => {
+  useFetcher
   return (
     <div className="form-wrapper">
       <h2 className="h3">
