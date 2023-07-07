@@ -10,7 +10,13 @@ const AddBudgetForm = () => {
   const fetcher = useFetcher()
   const isSubmitting = fetcher.state === "submitting";
 
-  const formRef = useRef() 
+  const formRef = useRef()
+
+  useEffect(() => {
+    if(!isSubmitting){
+      formRef.current.reset()
+    }
+  })
 
   return (
     <div className="form-wrapper">
