@@ -11,6 +11,7 @@ const AddBudgetForm = () => {
   const isSubmitting = fetcher.state === "submitting";
 
   const formRef = useRef()
+  const focusRef = useRef()
 
   useEffect(() => {
     if(!isSubmitting){
