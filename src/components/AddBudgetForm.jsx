@@ -16,7 +16,7 @@ const AddBudgetForm = () => {
     if(!isSubmitting){
       formRef.current.reset()
     }
-  })
+  }, [isSubmitting])
 
   return (
     <div className="form-wrapper">
