@@ -27,7 +27,7 @@ const AddBudgetForm = () => {
       <fetcher.Form method="post" className='grid-sm' ref={formRef}>
         <div className="grid-xs">
           <label htmlFor="newBudget">Budget Name</label>
-          <input type="text" name="newBudget" id="newBudget" placeholder='e.g., Groceries' required/>
+          <input type="text" name="newBudget" id="newBudget" placeholder='e.g., Groceries' required ref={focusRef}/>
         </div>
         <div className="grid-xs">
         <label htmlFor="newBudgetAmount">Amount</label>
