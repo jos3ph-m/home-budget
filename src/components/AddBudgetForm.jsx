@@ -37,7 +37,7 @@ const AddBudgetForm = () => {
         <input type="hidden" name="_action" value="createBudget"/>
         <button type="submit" className="btn btn--dark" disabled={isSubmitting}>
           {
-            isSubmitting ? <span>Creating budget...</span>:(<><span>Create budget</span><CurrencyDollarIcon width={20}/></>)
+            isSubmitting ? <span>Submitting...</span>:(<><span>Create budget</span><CurrencyDollarIcon width={20}/></>)
           }
         </button>
       </fetcher.Form>
