@@ -1,4 +1,5 @@
-export const wait = () => new Promise((res) => setTimeout(res, Math.random()));
+export const wait = () =>
+  new Promise((res) => setTimeout(res, Math.random() * 2000));
 
 // Random color generation
 const generateRandomColor = () => {
