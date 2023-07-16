@@ -57,11 +57,11 @@ const Dashboard = () => {
       <div className="dashboard">
         <h1>Hello again, <span className="accent">{userName}</span></h1>
         <div className="grid-sm">
-          <div className="grid-lg">
+          {<div className="grid-lg">
             <div className="flex-lg">
               <AddBudgetForm />
             </div>
-          </div>
+          </div>}
         </div>
       </div>) : <Intro />}
     </>
