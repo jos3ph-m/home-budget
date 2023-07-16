@@ -56,7 +56,7 @@ const Dashboard = () => {
     <>{userName ? (
       <div className="dashboard">
         <h1>Hello again, <span className="accent">{userName}</span></h1>
-        <div className="grid-sm">{/*budgets ? ():()*/}
+        <div className="grid-sm">
           <div className="grid-lg">
             <div className="flex-lg">
               <AddBudgetForm />
