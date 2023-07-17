@@ -57,7 +57,16 @@ const Dashboard = () => {
       <div className="dashboard">
         <h1>Hello again, <span className="accent">{userName}</span></h1>
         <div className="grid-sm">
-          
+          {            budgets && budgets.length > 0 ?()
+            <div className="grid-lg">
+            <div className="flex-lg">
+              <AddBudgetForm />
+              <AddExpenseForm budgets={budgets}/>
+            </div>
+          </div>):(
+            <div className="grid-sm"><p>Personal budgeting is the secret to financial freedom.</p><p>create a budget to get started!</p><AddBudgetForm /></div>
+          )
+}
         </div>
       </div>) : 
       <Intro />}
