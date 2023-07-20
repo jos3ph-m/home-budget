@@ -10,6 +10,7 @@ import { createBudget, fetchData, wait } from '../helpers'
 // components
 import Intro from '../components/Intro';
 import AddBudgetForm from '../components/AddBudgetForm';
+import AddExpenseForm from '../components/AddExpenseForm';
 
 // loader
 export function dashboardLoader() {
