@@ -1,6 +1,6 @@
 function AddExpenseForm() {
   return (
-    <div></div>
+    <div className="form-wrapper"></div>
   )
 }
 
