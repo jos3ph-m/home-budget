@@ -1,6 +1,6 @@
 function AddExpenseForm() {
   return (
-    <div>AddExpenseForm</div>
+    <div></div>
   )
 }
 
