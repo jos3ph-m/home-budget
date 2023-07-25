@@ -10,6 +10,8 @@ function AddExpenseForm({budgets}) {
 
   const formRef = useRef()
 
+  const focusRef = useRef()
+
   return (
     <div className="form-wrapper">
       <h2 className="h3">Add New{" "}
