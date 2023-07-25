@@ -25,6 +25,13 @@ function AddExpenseForm({budgets}) {
       <div className='expense-inputs'>
         <div className="grid-xs">
           <label htmlFor="newExpense">Expense Name</label>
+          <input 
+            type="text" 
+            name="newExpense"
+            id="newExpense"
+            placeholder="e.g., Coffee"
+            ref={focusRef}
+          />
         </div>
       </div>
       </fetcher.Form>
