@@ -22,7 +22,9 @@ function AddExpenseForm({budgets}) {
       className="grid-sm"
       ref={formRef}
       >
-      <div className='expense-inputs'></div>
+      <div className='expense-inputs'>
+        <div className="grid-xs"></div>
+      </div>
       </fetcher.Form>
     </div>
   )
