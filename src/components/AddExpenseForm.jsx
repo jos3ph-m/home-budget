@@ -1,7 +1,12 @@
+import {useRef} from 'react'
+// rrd
 import { useFetcher } from 'react-router-dom'
+
 
 function AddExpenseForm({budgets}) {
   const fetcher = useFetcher()
+
+  const formRef = useRef()
 
   return (
     <div className="form-wrapper">
@@ -11,7 +16,10 @@ function AddExpenseForm({budgets}) {
         {" "}Expense
       </h2>
       <fetcher.Form
-      method="post">
+      method="post"
+      className="grid-sm"
+      ref={formRef}
+      >
 
       </fetcher.Form>
     </div>
