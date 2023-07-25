@@ -23,7 +23,9 @@ function AddExpenseForm({budgets}) {
       ref={formRef}
       >
       <div className='expense-inputs'>
-        <div className="grid-xs"></div>
+        <div className="grid-xs">
+          <label htmlFor="newExpense"></label>
+        </div>
       </div>
       </fetcher.Form>
     </div>
