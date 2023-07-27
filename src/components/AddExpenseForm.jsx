@@ -33,6 +33,7 @@ function AddExpenseForm({budgets}) {
             id="newExpense"
             placeholder="e.g., Coffee"
             ref={focusRef}
+            required
           />
         </div>
       </div>
