@@ -36,6 +36,9 @@ function AddExpenseForm({budgets}) {
             required
           />
         </div>
+        <div className="grid-xs">
+          <label htmlFor="newExpenseAmount"></label>
+        </div>
       </div>
       </fetcher.Form>
     </div>
