@@ -26,7 +26,7 @@ function AddExpenseForm({budgets}) {
       >
       <div className='expense-inputs'>
         <div className="grid-xs">
-          <label htmlFor="newExpense">Expense Name:</label>
+          <label htmlFor="newExpense">Expense Name</label>
           <input 
             type="text" 
             name="newExpense"
@@ -37,7 +37,7 @@ function AddExpenseForm({budgets}) {
           />
         </div>
         <div className="grid-xs">
-          <label htmlFor="newExpenseAmount">Amount:</label>
+          <label htmlFor="newExpenseAmount">Amount</label>
           <input 
             type="number"
             step="0.01"
