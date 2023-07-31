@@ -40,7 +40,7 @@ function AddExpenseForm({budgets}) {
           <label htmlFor="newExpenseAmount">Amount</label>
           <input 
             type="number"
-            step="0.01"
+            step="0.02"
             inputMode='decimal'
             name="newExpenseAmount"
             id="newExpenseAmount"
