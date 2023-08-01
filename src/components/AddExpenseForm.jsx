@@ -44,7 +44,7 @@ function AddExpenseForm({budgets}) {
             inputMode='decimal'
             name="newExpenseAmount"
             id="newExpenseAmount"
-            placeholder='e.g., 1.50'
+            placeholder='e.g., 2.50'
             required
           />
         </div>
