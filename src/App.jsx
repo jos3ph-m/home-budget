@@ -36,7 +36,7 @@ const router = createBrowserRouter([
         element: <p>about</p>
       },
       {
-        path: "",
+        path: "logout",
         action: logoutAction
       }
     ]
